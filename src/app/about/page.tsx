@@ -11,7 +11,7 @@ import {
   Meta,
   Schema,
   Row,
-} from "@akki/core";
+} from "@once-ui-system/core";
 import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";

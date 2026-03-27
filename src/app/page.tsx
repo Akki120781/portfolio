@@ -10,7 +10,7 @@ import {
   Schema,
   Meta,
   Line,
-} from "@akki/core";
+} from "@once-ui-system/core";
 import { home, about, person, baseURL, routes } from "@/resources";
 import { ContactForm } from "@/components/ContactForm";
 import { Projects } from "@/components/work/Projects";

@@ -13,7 +13,7 @@ import {
   Avatar,
   Media,
   Line,
-} from "@akki/core";
+} from "@once-ui-system/core";
 import { baseURL, about, blog, person } from "@/resources";
 import { formatDate } from "@/utils/formatDate";
 import { getPosts } from "@/utils/utils";

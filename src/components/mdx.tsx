@@ -25,7 +25,7 @@ import {
   List,
   ListItem,
   Line,
-} from "@akki/core";
+} from "@once-ui-system/core";
 
 type CustomLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;

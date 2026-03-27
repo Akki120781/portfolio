@@ -1,5 +1,5 @@
-import "@akki/core/css/styles.css";
-import "@akki/core/css/tokens.css";
+import "@once-ui-system/core/css/styles.css";
+import "@once-ui-system/core/css/tokens.css";
 import "@/resources/custom.css";
 
 import classNames from "classnames";
@@ -12,7 +12,7 @@ import {
   opacity,
   RevealFx,
   SpacingToken,
-} from "@akki/core";
+} from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from "@/components";
 import { baseURL, effects, fonts, style, dataStyle, home } from "@/resources";
 

@@ -16,7 +16,7 @@ import {
   ThemeProvider,
   ToastProvider,
   TransitionStyle,
-} from "@akki/core";
+} from "@once-ui-system/core";
 import { style, dataStyle } from "../resources";
 import { iconLibrary } from "../resources/icons";
 

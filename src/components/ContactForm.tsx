@@ -1,8 +1,8 @@
 "use client";
 
 import { mailchimp } from "@/resources";
-import { Button, Heading, Input, Text, Background, Column, Row } from "@akki/core";
-import type { opacity, SpacingToken } from "@akki/core";
+import { Button, Heading, Input, Text, Background, Column, Row } from "@once-ui-system/core";
+import type { opacity, SpacingToken } from "@once-ui-system/core";
 import { useState } from "react";
 
 export const ContactForm: React.FC<React.ComponentProps<typeof Column>> = ({ ...flex }) => {

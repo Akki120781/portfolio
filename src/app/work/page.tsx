@@ -1,4 +1,4 @@
-import { Column, Heading, Meta, Schema } from "@akki/core";
+import { Column, Heading, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, work } from "@/resources";
 import { Projects } from "@/components/work/Projects";
 

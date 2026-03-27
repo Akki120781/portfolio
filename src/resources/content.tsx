@@ -1,5 +1,5 @@
 import type { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
-import { Line, Row, Text } from "@akki/core";
+import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Akshat",
@@ -121,9 +121,15 @@ const about: About = {
         timeframe: "Jan 2025 – Present",
         role: "MERN Stack Developer Intern (Virtual)",
         achievements: [
-          "Undergoing structured training in full-stack web development with the MERN stack (MongoDB, Express.js, React.js, Node.js) under IIT Ropar’s virtual internship program.",
-          "Building and deploying RESTful APIs with Node.js and Express, and designing interactive frontends using React.js with component-based architecture.",
-          "Working with MongoDB for database design, schema modeling, and CRUD operations integrated with backend services.",
+          <>
+            Undergoing structured training in full-stack web development with the MERN stack (MongoDB, Express.js, React.js, Node.js) under IIT Ropar’s virtual internship program.
+          </>,
+          <>
+            Building and deploying RESTful APIs with Node.js and Express, and designing interactive frontends using React.js with component-based architecture.
+          </>,
+          <>
+            Working with MongoDB for database design, schema modeling, and CRUD operations integrated with backend services.
+          </>,
         ],
         images: [],
       },
@@ -132,9 +138,18 @@ const about: About = {
         timeframe: "2023 - Present",
         role: "Data Analyst Intern",
         achievements: [
-          "Created an end-to-end machine learning pipeline to predict AQI for Indian cities, processing 1M+ air quality records and achieving R² ≈ 0.9 using Random Forest and XGBoost models.",
-          "Engineered CPCB-compliant AQI computation, feature pipelines, and an automated health-alert system that translates model outputs into actionable advisories.",
-          "Automated data ingestion and pipeline updates with GitHub Actions, ensuring reproducibility and continuous data refresh.",
+          <>
+            Created an end-to-end machine learning pipeline to predict AQI for Indian cities, processing 1M+ air
+quality records and achieving R² ≈ 0.9 using Random Forest and XGBoost models.
+          </>,
+          <>
+             Engineered CPCB-compliant AQI computation, feature pipelines, and an automated health-alert system
+that translates model outputs into actionable advisories.
+          </>,
+          <>
+             Automated data ingestion and pipeline updates with GitHub Actions, ensuring reproducibility and
+continuous data refresh.
+          </>,
         ],
         images: [
           {
@@ -150,9 +165,15 @@ const about: About = {
         timeframe: "2023 - Present",
         role: "Software Engineer Intern(Algorithm and DSA)",
         achievements: [
-          "Implemented A* pathfinding algorithm in Java within a state management system, optimizing route calculations by 30% for a logistics application.",
-          "Integrated traffic-weighted cost modeling for dynamic route optimization.",
-          "Applied heuristic functions to improve search efficiency, reducing average computation time by 25%.",
+          <>
+            Implemented A* pathfinding algorithm in Java within a state management system, optimizing route calculations by 30% for a logistics application.
+          </>,
+          <>
+            Integrated traffic-weighted cost modeling for dynamic route optimization.
+          </>,
+           <>
+           Applied heuristic functions to improve search efficiency, reducing average computation time by 25%.
+          </>,
         ],
         images: [],
       },
@@ -165,6 +186,10 @@ const about: About = {
       {
         name: "Lovely Professional University",
         description: <>Studied Data Science and Business Analytics.</>,
+      },
+      {
+        name: "Mount Litera Zee School, Indore",
+        description: <>Completed 10th and 12th with 85% and 87% respectively.</>,
       },
     ],
   },

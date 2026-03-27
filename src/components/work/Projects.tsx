@@ -1,5 +1,5 @@
 import { getPosts } from "@/utils/utils";
-import { Column } from "@akki/core";
+import { Column } from "@once-ui-system/core";
 import { ProjectCard } from "@/components";
 import styles from "./Projects.module.scss";
 
